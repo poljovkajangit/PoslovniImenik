@@ -188,5 +188,10 @@
   <ItemGroup>
     <None Include="Resources\62917-open-file-folder-icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="PoslovniImenikDB.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
